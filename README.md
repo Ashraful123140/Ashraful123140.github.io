@@ -2,58 +2,73 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Plant Gallery</title>
-    <!-- Bootstrap CSS link -->
+    <title>Marval</title>
+  
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
   </head>
   <body>
-    <!-- Container (Bootstrap Concept 1: Layout using Container) -->
+   
     <div class="container my-5">
-      <h1 class="text-center mb-4">🌱 My Plant Gallery 🌱</h1>
+      <h1 class="text-center mb-4">🌱 Marval Character 🌱</h1>
 
-      <!-- Row and Columns (Bootstrap Concept 2: Grid System) -->
-      <div class="row">
-        <!-- First Plant -->
-        <div class="col-md-4 text-center">
+      
+      <div class="row mb-4">
+  
+        <div class="col-md-6 text-center">
           <img
-            src="https://www.shutterstock.com/image-photo/indoor-house-pot-plants-potted-600nw-1747639997.jpg"
+            src="https://cdn.marvel.com/u/prod/marvel/i/mg/3/e0/661e9b6428e34/standard_incredible.jpg"
             class="img-fluid rounded"
-            alt="Aloe Vera"
+            alt="Iron Man"
             style="width: 300px; height: 300px; object-fit: cover"
           />
-          <h5 class="mt-3">Aloe Vera</h5>
-          <p>Known for its healing properties and easy care!</p>
+          <h5 class="mt-3">Iron Man</h5>
+          <p>One of many Marvel heroes with a genius-level intellect</p>
         </div>
 
-        <!-- Second Plant -->
-        <div class="col-md-4 text-center">
+     
+        <div class="col-md-6 text-center">
           <img
-            src="https://shop-static.arborday.org/media/0004367_snake-plant.jpeg"
+            src="https://www.denverpost.com/wp-content/uploads/2017/01/thor-the-dark-world.jpg?w=1800&resize=1800,1800"
             class="img-fluid rounded"
-            alt="Snake Plant"
-            style="width: 200px; height: 200px; object-fit: cover"
+            alt="Thor"
+            style="width: 300px; height: 300px; object-fit: cover"
           />
-          <h5 class="mt-3">Snake Plant</h5>
-          <p>Hardy and great for indoor air purification.</p>
-        </div>
-
-        <!-- Third Plant -->
-        <div class="col-md-4 text-center">
-          <img
-            src="https://media.houseandgarden.co.uk/photos/64677e9c55fc4e858e5b4d31/master/w_1600%2Cc_limit/492766473"
-            class="img-fluid rounded"
-            alt="Peace Lily"
-            style="width: 200px; height: 200px; object-fit: cover"
-          />
-          <h5 class="mt-3">Peace Lily</h5>
-          <p>Elegant flowers and thrives in shade!</p>
+          <h5 class="mt-3">Thor</h5>
+          <p>The god of thunder, strength, and protection.</p>
         </div>
       </div>
 
-      <!-- Button (Bootstrap Concept 3: Components) -->
+      
+      <div class="row">
+       
+        <div class="col-md-6 text-center">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/en/b/bf/CaptainAmericaHughes.jpg"
+            class="img-fluid rounded"
+            alt="Captain America"
+            style="width: 300px; height: 300px; object-fit: cover"
+          />
+          <h5 class="mt-3">Captain America</h5>
+          <p>A superhuman soldier enhanced by an experimental serum</p>
+        </div>
+
+        <!-- Fourth Plant (added to complete 2x2 grid) -->
+        <div class="col-md-6 text-center">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/en/2/21/Web_of_Spider-Man_Vol_1_129-1.png"
+            class="img-fluid rounded"
+            alt="Spider Man"
+            style="width: 300px; height: 300px; object-fit: cover"
+          />
+          <h5 class="mt-3">Spider Man</h5>
+          <p>Spider-Man is a superhero in American comic books published by Marvel Comics</p>
+        </div>
+      </div>
+
+    
       <div class="text-center mt-4">
         <button class="btn btn-success">See More Plants</button>
       </div>
